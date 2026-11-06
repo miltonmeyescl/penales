@@ -1,0 +1,9 @@
+V8.5 – Vista TV Sport + cancha dominante
+
+- La cancha ahora se presenta como bloque 16:9 dominante.
+- El marcador se superpone dentro de la cancha, arriba a la izquierda.
+- La barra inferior de instrucciones se superpone dentro de la cancha, abajo.
+- Se oculta casi toda la UI externa durante el juego para aprovechar pantalla en PC, TV, tablet y celular.
+- Se incorporó ayuda/estado en overlay superior.
+- La portada final de campeón mejora con sello 'Edición histórica' y cintillo de campeón.
+- Service Worker actualizado a cache v36.

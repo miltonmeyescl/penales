@@ -1,0 +1,5 @@
+V7.3.5 – LED Multihogar
+
+- En la franja LED del estadio se reemplazó 'TANDA DE PENALES' por 'MULTIHOGAR'.
+- El panel MULTIHOGAR ahora se muestra con letras blancas sobre fondo azul claro.
+- Cache PWA actualizado a v29.

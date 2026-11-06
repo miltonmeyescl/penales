@@ -1,0 +1,6 @@
+V7.3.3 – Hotfix nombres del panel administrativo
+
+- Corregido el orden de carga de teams_custom.js y teams.js.
+- teams_custom.js ahora se carga antes de teams.js, por lo que las sobrescrituras administrativas se aplican correctamente.
+- Se mantiene teams_custom.js fuera de la caché del Service Worker.
+- Cache PWA actualizado a v27 para forzar la actualización de index.html.

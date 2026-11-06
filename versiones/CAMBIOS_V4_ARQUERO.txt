@@ -1,0 +1,11 @@
+PENALES V4 - MODO ARQUERO
+
+- Swipe para atajar en celular, tablet y mouse.
+- La direccion del gesto define la estirada.
+- La velocidad del gesto aumenta el alcance del arquero.
+- Los gestos centrales producen bloqueo frontal, util para tiros rasos/centrales.
+- En modo 2 jugadores, la eleccion del arquero sigue siendo secreta y ahora puede hacerse con swipe.
+- Se conserva clic por zonas como fallback para PC/accesibilidad.
+- La animacion del arquero usa la velocidad del gesto para aumentar inclinacion y extension de brazos.
+- Se mantiene compatibilidad con apuntado libre, efecto, Panenka, tiros colocados y misil.
+- Cache PWA actualizado a v7.

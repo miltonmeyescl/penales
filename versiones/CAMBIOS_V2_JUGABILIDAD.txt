@@ -1,0 +1,13 @@
+PENALES CURICO - V2 JUGABILIDAD
+
+Cambios principales:
+- Apuntado libre dentro del arco para los pateadores humanos.
+- Las 12 zonas se conservan solo internamente para IA/arquero.
+- Atajadas calculadas por distancia real y alcance del arquero.
+- Precisión con punto dulce de potencia alrededor de 60-70%.
+- Tipos de disparo automáticos: Panenka, colocado, misil, raso y al angulo.
+- Riesgo de palo/travesano al buscar los limites del arco.
+- Potencia extrema aumenta dispersion y riesgo de mandar el balon fuera.
+- Panenka castiga a un arquero que se lanza lejos del centro.
+- Modo 2 jugadores adaptado al apuntado libre para ambos pateadores.
+- Service Worker actualizado a cache v5 para forzar la nueva version.

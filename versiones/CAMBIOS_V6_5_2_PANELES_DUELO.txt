@@ -1,0 +1,8 @@
+V6.5.2 – Ajuste de paneles del duelo
+
+- Se corrigió la altura de los paneles de información del duelo.
+- El alto ahora se calcula dinámicamente según la cantidad de atributos.
+- Se mejoró el padding interior para que barras y textos no se salgan del cuadro.
+- Se aumentó el ancho de los paneles y se ajustó su posición lateral.
+- El nombre del jugador ahora reduce tipografía automáticamente si no cabe en el ancho disponible.
+- Cache PWA actualizado a v16.

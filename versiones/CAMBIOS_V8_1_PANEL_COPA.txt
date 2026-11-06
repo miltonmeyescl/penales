@@ -1,0 +1,6 @@
+V8.1 – Ajuste panel de avance en Copa
+
+- Se subió y compactó el panel informativo de avance de ronda.
+- Se bajó el botón 'Siguiente partido' cuando corresponde, para que no tape la información.
+- Se ajustó el tamaño base del botón.
+- Cache PWA actualizado a v32.

@@ -1,0 +1,17 @@
+PENALES V5 - EXPERIENCIA CINEMATOGRAFICA
+
+NOVEDADES
+- Presentacion PATEADOR vs ARQUERO antes de cada penal.
+- Perfil visual del pateador con Precision, Potencia y Compostura.
+- Perfil visual del arquero con Reflejos y Alcance.
+- Los perfiles usan etiquetas genericas PATEADOR #N para no inventar una nomina real.
+- Camara previa ligeramente mas cercana y baja, simulando una vista detras del pateador.
+- Repeticiones destacadas desde un segundo angulo lateral y con zoom adicional.
+- Lower-third tipo transmision despues de cada jugada importante.
+- Reacciones diferenciadas para gol, atajada, palo/travesano y remate desviado.
+- La presentacion previa general del partido se mantiene.
+- Toda la jugabilidad V4 (swipe de arquero, efecto, apuntado libre, Panenka, misil, rebotes, etc.) se conserva.
+- Service Worker actualizado a cache v8.
+
+NOTA
+Los nombres genericos pueden reemplazarse mas adelante por una nomina configurable desde teams.js.

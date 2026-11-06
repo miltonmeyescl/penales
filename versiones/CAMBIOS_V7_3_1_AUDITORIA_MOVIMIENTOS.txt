@@ -1,0 +1,10 @@
+V7.3.1 – Auditoría de movimientos
+
+- Corregido efecto visual de tercer brazo en atajadas onehand/fingertip/parry.
+- Las atajadas especiales ahora extienden el brazo existente en vez de dibujar un tramo extra.
+- Corregida lógica de atajada con piernas para evitar una pierna superpuesta/adicional.
+- Limitada la extensión máxima de los brazos del arquero durante vuelo y celebración.
+- Corregidas celebraciones del pateador: manos y codos se desplazan juntos y los antebrazos mantienen longitud estable.
+- Limitada la apertura máxima de brazos al celebrar.
+- El puñetazo del arquero resalta el guante existente en vez de dibujar una mano extra.
+- Cache PWA actualizado a v25.

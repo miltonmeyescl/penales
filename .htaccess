@@ -1,0 +1,4 @@
+# Protege archivos privados del panel administrativo.
+<FilesMatch "^(admin_config\.php|admin_teams\.json)$">
+  Require all denied
+</FilesMatch>

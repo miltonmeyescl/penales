@@ -1,0 +1,9 @@
+V6.7 – Balón, red y contacto
+
+- Balón redibujado con volumen, degradado, costuras, paneles y brillo.
+- Giro visual más claro durante el vuelo.
+- Deformación sutil del balón en momentos de impacto.
+- Efectos de contacto en pie, guantes, palo/travesaño y red.
+- Red con onda más fuerte, localizada y con amortiguación más natural.
+- Mejora de la profundidad visual de la sombra del balón.
+- Cache PWA actualizado a v17.

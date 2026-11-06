@@ -1,0 +1,11 @@
+PENALES V6.1 - HOTFIX PRESENTACION
+
+- La presentación inicial ya no puede dejar el partido bloqueado.
+- Avanza automáticamente mediante watchdog a los 7,2 s.
+- También avanza desde la animación a los 6,8 s.
+- Se puede saltar con clic o toque en cualquier punto del área de juego.
+- También se puede saltar con Espacio, Enter o Escape.
+- El clic usado para saltar no se reutiliza accidentalmente como disparo.
+- Se agregó fallback seguro hacia startUserTurn si falla el callback de la presentación.
+- Se corrigieron secuencias \n literales que habían quedado en styles.css.
+- Service Worker actualizado a cache v10.

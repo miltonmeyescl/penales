@@ -1,0 +1,11 @@
+V6.6 – Mejor acabado de jugadores
+
+- Silueta de camiseta más humana, con hombros y cintura definidos.
+- Brazos y piernas ahora incluyen articulaciones visibles y poses menos rígidas.
+- Botines redibujados con volumen, suela y detalles.
+- Manos y cuello mejorados.
+- Cabezas con más volumen, nariz y luces faciales.
+- El pateador adopta una postura de remate más natural y brazos de equilibrio.
+- El arquero incorpora mejores articulaciones, cuello y detalle de camiseta.
+- Se mantiene el estilo Canvas arcade y el rendimiento móvil.
+- Cache PWA actualizado a v17.

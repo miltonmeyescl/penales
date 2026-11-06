@@ -1,0 +1,9 @@
+V6.4 – Estilo televisivo del duelo
+
+- La presentación del duelo se rediseñó con estética de transmisión de TV.
+- Se agregaron paneles laterales compactos para pateador y arquero.
+- Los atributos ahora se muestran como barras visuales.
+- El centro quedó reservado para el bloque del penal actual.
+- Se mantuvo el fondo del estadio más visible, con overlay más liviano.
+- Se eliminaron elementos grandes que tapaban demasiado la cancha.
+- Cache PWA actualizado a v13.

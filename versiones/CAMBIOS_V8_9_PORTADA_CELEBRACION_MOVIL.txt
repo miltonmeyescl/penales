@@ -1,0 +1,9 @@
+V8.9 – Portada histórica, celebración ampliada y ajuste móvil
+
+- Se mejoró la portada final tipo diario deportivo cuando Curicó sale campeón.
+- La edición de campeón ahora usa un estilo más marcado de portada histórica.
+- Se reforzó la celebración final con más jugadores en pantalla junto al trofeo.
+- En victorias normales también se ve una celebración más potente del equipo.
+- Se mejoró la experiencia móvil/horizontal con fondos laterales más integrados visualmente.
+- Se mejoró el botón de cierre de la portada y su accesibilidad táctil.
+- Se actualizó el versionado de recursos para reducir problemas de caché.

@@ -1,0 +1,6 @@
+V6.8 – Equipos actualizados
+
+- Se incorporaron los nuevos teams.js y teams_custom.js proporcionados.
+- Curicó Unido queda con la plantilla, nombres y dorsales actualizados.
+- Se conserva el panel administrativo y las sobrescrituras dinámicas.
+- Cache PWA actualizado a v18 para forzar la carga de la nueva configuración.

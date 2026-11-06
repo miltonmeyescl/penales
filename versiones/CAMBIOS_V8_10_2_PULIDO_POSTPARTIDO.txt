@@ -1,0 +1,7 @@
+V8.10.2 – Pulido postpartido
+
+- Se agregó clipping real dentro de los paneles para impedir que cualquier texto se salga del cuadro.
+- Se afinó la alineación de resultado, figura, próximo rival y estadísticas.
+- El botón postpartido ahora se integra en la esquina inferior derecha y no tapa la celebración.
+- Se mantuvo despejado el centro del campo para ver mejor a los jugadores festejando.
+- Se actualizó caché/versionado a assets v912 / PWA v44.

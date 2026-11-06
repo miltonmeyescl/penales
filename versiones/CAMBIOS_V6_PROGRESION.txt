@@ -1,0 +1,12 @@
+PENALES V6 - PROGRESION Y PLANTILLA
+
+- Atributos del duelo movidos mas abajo y reducidos de tamano.
+- Plantilla configurable desde teams.js.
+- Seleccion de pateador antes de cada penal del jugador.
+- Precisión, Potencia y Compostura afectan realmente la jugabilidad.
+- Cansancio al repetir pateadores.
+- Rival rota automaticamente sus pateadores.
+- Estadisticas historicas persistentes: goles, atajadas y logros.
+- Logros iniciales: primera victoria, cinco goles seguidos y campeon de Copa.
+- Camino visual de Copa con ronda activa y rondas superadas.
+- Cache PWA actualizado a v9.

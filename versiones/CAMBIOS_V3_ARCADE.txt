@@ -1,0 +1,23 @@
+PENALES CURICO - V3 ARCADE
+
+Novedades principales
+====================
+- Efecto de balon con gesto horizontal durante la carga de potencia.
+- Compatible con mouse, touch y lapiz/pointer.
+- Indicador en pantalla del porcentaje y direccion del efecto.
+- Trayectoria curva visible del balon.
+- El efecto reduce moderadamente la capacidad de lectura/atajada del arquero.
+- Nuevo tipo de disparo: TIRO CON EFECTO.
+- Rebote animado al pegar en PALO o TRAVESANO.
+- Camara lenta automatica en impactos contra la madera.
+- Repeticion de atajadas, golazos, tiros con efecto fuerte y tiros al palo/travesano.
+- Mejoras touch: touch-action desactivado sobre el canvas para que el gesto no desplace la pagina.
+- Cache PWA actualizado a v6.
+
+Control de disparo
+==================
+1. Selecciona libremente el punto del arco.
+2. Comienza la carga de potencia.
+3. Arrastra horizontalmente sobre la cancha para dar efecto.
+4. Suelta para patear.
+5. Un toque rapido o ESPACIO dispara sin efecto.

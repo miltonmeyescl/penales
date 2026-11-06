@@ -1,0 +1,6 @@
+V6.9.1 – Hotfix intro + arquero
+
+- Corregido error en drawKeeper por variable no definida (supportDx).
+- El arquero vuelve a dibujarse completo.
+- La intro del duelo vuelve a mostrarse correctamente al no interrumpirse el render.
+- Cache PWA actualizado a v20.

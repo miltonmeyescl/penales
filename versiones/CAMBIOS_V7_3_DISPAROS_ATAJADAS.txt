@@ -1,0 +1,22 @@
+V7.3 – Disparos y atajadas especiales
+
+Nuevos disparos automáticos según potencia, ubicación y efecto:
+- Cañonazo (96%+).
+- Trivela (efecto muy alto).
+- Rosca al palo.
+- Ajustado al palo.
+- Latigazo raso.
+- Tiro seco.
+- Se mantienen Panenka, misil, colocado, raso y ángulo.
+
+Nuevas atajadas:
+- Blocaje.
+- Puñetazo.
+- Manotazo.
+- Punta de dedos.
+- A una mano.
+- Dos manos.
+- Con los pies.
+
+Los rebotes cambian según el tipo de intervención del arquero y los mensajes muestran la atajada realizada.
+Cache PWA actualizado a v24.

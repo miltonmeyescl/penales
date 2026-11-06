@@ -1,0 +1,9 @@
+V6.9 – Ambiente de estadio mejorado
+
+- Público con más movimiento y variación visual en dos bandejas.
+- Flashes en tribuna durante goles, atajadas y penales decisivos.
+- Carteles LED animados con mensajes según el momento del penal.
+- Iluminación dinámica del estadio y del césped según el tipo de jugada.
+- Reacción visual distinta para gol, atajada, remate al palo/desviado y penal decisivo.
+- Se mantiene el rendimiento móvil con efectos ligeros dibujados en Canvas.
+- Cache PWA actualizado a v19.

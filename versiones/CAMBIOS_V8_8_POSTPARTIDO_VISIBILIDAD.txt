@@ -1,0 +1,10 @@
+V8.8 – Ajustes postpartido y copa
+
+- Se redujo la sobrecarga visual al terminar partidos de copa.
+- Mensajes de victoria/avance más compactos y ubicados más arriba.
+- Paneles de resumen y próximo partido reorganizados a los costados del arco.
+- Estadísticas más pequeñas y visibles al lado del arco.
+- Mejor visibilidad del resultado completo y nombres de equipos.
+- Celebración del equipo ganador más visible en pantalla.
+- Botón rojo de continuidad/reinicio más alto, grande y fácil de presionar.
+- Se actualizaron versiones de recursos en index.html para evitar caché.

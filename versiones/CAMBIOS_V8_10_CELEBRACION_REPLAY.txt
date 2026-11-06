@@ -1,0 +1,17 @@
+V8.10 – Celebración final + replay decisivo
+
+1) Celebración reforzada al cierre:
+- jugadores corriendo en festejo;
+- jugadores abrazándose;
+- escena de levantamiento de copa más visible en la final.
+
+2) Replay del penal decisivo:
+- los penales decisivos ahora gatillan repetición antes de la pantalla final;
+- la repetición se identifica en pantalla como “PENAL DECISIVO”.
+
+3) Ajustes de timing y cierre:
+- se extendió levemente la espera antes de mostrar la portada/resumen;
+- se mantuvo más tiempo visible la celebración final.
+
+4) Caché / actualización:
+- se actualizaron versiones de assets y service worker para evitar que el navegador mantenga archivos antiguos.

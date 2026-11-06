@@ -1,0 +1,9 @@
+V8.7 – Sistema de audio real híbrido
+
+- Se agregó audio_config.js para administrar MP3 reales sin editar game.js.
+- Si un MP3 no existe/no carga, se mantiene automáticamente el sonido sintetizado anterior.
+- Se prepararon carpetas audio/efectos, audio/ambiente y audio/musica.
+- Se agregó audio/INSTRUCCIONES_AUDIO.md con calidad, bitrate, duración y nombres exactos.
+- Soporte para patada, red, palo, guantes, silbato, público, cánticos, gol, atajada, fallo, pifias, victoria y derrota.
+- Se corrigió ensureAudio para inicializar correctamente AudioContext.
+- PWA actualizada a cache v41.

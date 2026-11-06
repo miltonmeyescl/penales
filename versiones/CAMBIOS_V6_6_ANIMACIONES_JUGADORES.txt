@@ -1,0 +1,8 @@
+V6.6 – Animaciones de jugadores
+
+- Carrera previa visual de 2-3 pasos antes del remate.
+- Balanceo de piernas y cuerpo durante la aproximación.
+- Brazos más dinámicos durante el golpeo.
+- Reacción breve del pateador tras gol o fallo.
+- Caída del arquero más horizontal y con desplazamiento de aterrizaje.
+- Cache PWA actualizado a v17.

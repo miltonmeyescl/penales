@@ -1,0 +1,6 @@
+V8.2 – Tarjeta de avance de Copa estilo TV
+
+- Se rediseñó el panel de avance de ronda con una maquetación tipo transmisión TV.
+- Se separaron visualmente resumen, estadísticas, figura y próximo rival.
+- Se mejoró la jerarquía visual del resultado y del siguiente partido.
+- Cache PWA actualizado a v33.

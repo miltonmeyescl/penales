@@ -1,0 +1,9 @@
+V7.2 – Tensión previa al penal
+
+- Nueva fase de cuenta regresiva 3-2-1 antes de cada penal.
+- Pausa dramática con silbato antes de habilitar el remate.
+- Zoom de cámara durante la preparación del penal.
+- Público más contenido antes del tiro y subida justo tras el pitazo.
+- Penales decisivos con más silencio ambiental y tensión.
+- Estado broadcast actualizado a 'CUENTA REGRESIVA'.
+- Cache PWA actualizado a v23.

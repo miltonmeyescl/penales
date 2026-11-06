@@ -1,0 +1,15 @@
+PENALES V6.2 — ORDEN DE PATEADORES
+
+- Se elimina la selección de pateador antes de cada penal.
+- Antes de comenzar la tanda se muestran los 11 jugadores, incluido el arquero.
+- El usuario puede definir el orden completo 1° a 11°.
+- En PC se puede reordenar arrastrando.
+- En celular/tablet se puede reordenar con botones ↑/↓.
+- Botón Confirmar orden para iniciar la tanda.
+- Botón Selección automática para generar un orden basado en atributos.
+- En modo 2 Jugadores cada equipo define su orden antes de comenzar.
+- En Copa se define el orden antes de cada partido/tanda.
+- Si la muerte súbita supera 11 pateadores, el orden vuelve a comenzar desde el 1°.
+- Se amplían las plantillas configurables a 11 jugadores por equipo.
+- El arquero (#1) tiene también Precisión, Potencia y Compostura como pateador.
+- PWA: cache v11.

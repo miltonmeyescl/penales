@@ -1,0 +1,6 @@
+V6.5.1 – Ajuste de nombre en placas del duelo
+
+- En las placas de PATEADOR y ARQUERO ahora se muestra solo dorsal + nombre del jugador.
+- Se eliminó el nombre del equipo en la placa del arquero para evitar desbordes.
+- El arquero toma su identidad desde la plantilla del equipo (jugador arquero configurado).
+- Cache PWA actualizado a v15.

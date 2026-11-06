@@ -1,0 +1,5 @@
+V8 – Presentación de Copa y celebración final
+- Resumen entre rondas con marcador, efectividad, atajadas, figura y próximo rival.
+- Final con escena de campeón, trofeo, más jugadores y confeti.
+- Cierre de campeón antes de la portada de diario.
+- Cache PWA v31.

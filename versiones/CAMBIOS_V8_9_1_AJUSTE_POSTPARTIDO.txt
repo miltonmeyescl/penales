@@ -1,0 +1,9 @@
+V8.9.1 – Ajuste de postpartido / campeón
+
+- Se corrigió el desborde de texto dentro del cuadro de resumen final.
+- El resultado ahora se muestra en varias líneas para que los nombres de equipos no se corten.
+- Se alineó el panel de estadísticas (título y valores).
+- Se bajó y despejó el botón rojo para que no tape información importante.
+- Se redujo el impacto visual del texto grande de avance/campeón para no saturar la pantalla.
+- Se mantuvo más visible la celebración del equipo y el trofeo.
+- Se actualizó el versionado del frontend para evitar caché del navegador.

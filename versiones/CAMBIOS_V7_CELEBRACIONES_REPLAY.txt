@@ -1,0 +1,14 @@
+V7 – Celebraciones y replay televisivo
+
+Punto 7: celebraciones/reacciones
+- Goles con variantes de brazos arriba, carrera corta o deslizamiento de rodillas.
+- Fallos/atajadas contra el pateador con gesto de frustración y manos a la cabeza.
+- El arquero celebra atajadas con salto y puño arriba.
+- Animaciones breves para no cortar el ritmo de la tanda.
+
+Punto 8: replay TV
+- Transición gráfica antes de la repetición.
+- Dos cámaras dentro de la misma repetición: lateral y acercamiento detrás del arco.
+- Rótulos CÁMARA 1 / CÁMARA 2, 0.4x y tipo de jugada.
+- Replays para atajadas, palos y goles destacados.
+- Cache PWA actualizado a v21.

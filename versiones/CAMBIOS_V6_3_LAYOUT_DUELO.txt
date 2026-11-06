@@ -1,0 +1,7 @@
+V6.3 – Ajuste de layout del duelo
+
+- Se eliminó el VS central en la pantalla de duelo.
+- Se redujo el tamaño de los títulos del pateador y el arquero.
+- Se bajó y compactó la posición de los atributos para que no compitan con los nombres.
+- Se mantuvo al centro solo el texto de la ronda/penal actual.
+- Cache PWA actualizado a v12.

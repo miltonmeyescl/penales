@@ -1,0 +1,7 @@
+V7.3.6 – Revisión y actualización de vallas publicitarias
+
+- Se revisaron las capas de vallas y franja LED del estadio.
+- Las vallas publicitarias fijas quedaron solo con auspiciadores: Multihogar, Coca-Cola, Carnes Guerra y Eliotec.
+- Los lienzos de galería quedaron para apoyo a Curicó Unido.
+- La franja LED en reposo ahora alterna auspiciadores y apoyo al equipo, sin mensajes antiguos no deseados.
+- Cache PWA actualizado a v30.

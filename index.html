@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Penales: Curicó Unido</title>
+<link rel="manifest" href="manifest.json?v=912">
+<meta name="theme-color" content="#07111f">
+<link rel="icon" type="image/png" href="icon-192.png?v=912">
+<link rel="apple-touch-icon" href="icon-192.png?v=912">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" href="styles.css?v=912">
+</head>
+<body>
+  <main id="appShell">
+    <header id="topbar">
+      <div class="brandblock">
+        <div class="brandmark">CU</div>
+        <div>
+          <div class="eyebrow">ESTADIO LA GRANJA</div>
+          <h1><span class="rojo">Curicó Unido</span> · Penales</h1>
+        </div>
+      </div>
+      <div class="topactions">
+        <div id="matchstatus"><span class="statusdot"></span><span id="statusText">LISTO PARA JUGAR</span></div>
+        <button id="helpbtn" title="Instrucciones" aria-label="Instrucciones">?</button>
+      </div>
+    </header>
+
+    <section id="scoreboard" aria-label="Marcador">
+      <div class="team curi">
+        <img class="scorecrest" id="localcrest" src="insignias/curico.png" alt="Curicó Unido">
+        <div class="teamcopy">
+          <div class="teamtag">LOCAL</div>
+          <div class="name">CURICÓ UNIDO</div>
+          <div class="dots" id="dotsUser"></div>
+        </div>
+      </div>
+
+      <div class="scorecenter">
+        <div id="roundmini">TANDA DE PENALES</div>
+        <div id="bigscore">0 <span>-</span> 0</div>
+        <div id="modechip">PARTIDO RÁPIDO</div>
+      </div>
+
+      <div class="team rival">
+        <div class="teamcopy right">
+          <div class="teamtag">VISITA</div>
+          <div class="name" id="rivalname">AMARGOS FC</div>
+          <div class="dots" id="dotsCpu"></div>
+        </div>
+        <img class="scorecrest" id="rivalcrest" src="insignias/3.png" alt="Rival">
+      </div>
+    </section>
+
+    <section id="gamewrap">
+      <canvas id="game" width="900" height="560" aria-label="Cancha de penales"></canvas>
+      <div id="message"></div>
+      <button id="restart">Jugar de nuevo</button>
+      <div id="powerwrap">
+        <div id="powerbar"><div id="powermask"></div></div>
+        <div id="powerlabel">Arrastra para dar efecto y suelta para patear · ESPACIO dispara sin efecto</div>
+      </div>
+    </section>
+
+    <section id="instructionbar">
+      <div id="phaseicon">⚽</div>
+      <div id="instruction">Cargando...</div>
+      <div id="controlhint">APUNTA · CARGA · DISPARA</div>
+    </section>
+  </main>
+
+  <div id="intro">
+    <div class="introglow glow1"></div>
+    <div class="introglow glow2"></div>
+    <div id="introcard">
+      <div class="introhero">
+        <img src="insignias/curico.png" class="introcrest" alt="Curicó Unido">
+        <div id="introball">⚽</div>
+      </div>
+      <div class="eyebrow center">NOCHE DE DEFINICIÓN</div>
+      <h2>Tanda de Penales</h2>
+      <p class="vs"><span class="curi">CURICÓ UNIDO</span> <em>vs</em> <span class="rival">AMARGOS FC</span></p>
+      <p class="introtext">Cinco penales por equipo. Apunta libremente, domina potencia, precisión y efecto, engaña al arquero y define bajo presión.</p>
+
+      <div id="modebtns">
+        <button class="modebtn primary" id="playquick">
+          <span class="modeicon">⚡</span><span><strong>Partido rápido</strong><small>Directo a la tanda</small></span><span class="arrow">›</span>
+        </button>
+        <button class="modebtn" id="playcopa">
+          <span class="modeicon">🏆</span><span><strong>Modo Copa</strong><small>3 rondas · dificultad progresiva</small></span><span class="arrow">›</span>
+        </button>
+        <button class="modebtn" id="play2p">
+          <span class="modeicon">👥</span><span><strong>2 Jugadores</strong><small>Duelo local en el mismo dispositivo</small></span><span class="arrow">›</span>
+        </button>
+      </div>
+      <p id="recordsline"></p>
+      <div id="progressline"></div>
+      <div class="introfooter">PWA · Funciona en PC, tablet y celular</div>
+    </div>
+  </div>
+
+  <div id="paper" class="hidden">
+    <div id="papercard">
+      <button id="paperx" aria-label="Cerrar">✕</button>
+      <div id="papertop">DIARIO EL CURICANO</div>
+      <div id="paperdate">Edición especial · Estadio La Granja · Curicó, Chile</div>
+      <div id="paperstrap"></div>
+      <h3 id="paperheadline"></h3>
+      <div id="paperdeck"></div>
+      <img id="paperphoto" alt="Foto del partido">
+      <div id="paperribbon"></div>
+      <div id="paperscore"></div>
+      <div id="paperstats"></div>
+      <canvas id="shotmap" width="240" height="130"></canvas>
+      <div id="shotmaplabel">Mapa de tus disparos</div>
+      <button id="paperclose">Cerrar 📰</button>
+    </div>
+  </div>
+
+
+  <div id="shooterselect" class="hidden overlaypanel">
+    <div class="overlaycard shooter-card lineup-card">
+      <div class="eyebrow center">ORDEN DE EJECUCIÓN</div>
+      <h2 id="shooterselecttitle">Define el orden de los 11 pateadores</h2>
+      <p class="overlaylead">Ordena una sola vez antes de comenzar la tanda. Arrastra en PC o usa ↑/↓ en celular. El arquero también puede patear.</p>
+      <div class="lineup-head"><span>ORDEN</span><span>JUGADOR</span><span>ATRIBUTOS</span><span>MOVER</span></div>
+      <div id="shootercards" class="lineup-list"></div>
+      <div class="lineup-actions">
+        <button id="shooterauto" class="overlayaction secondary">✨ Selección automática</button>
+        <button id="shooterconfirm" class="overlayaction primary">✓ Confirmar orden</button>
+      </div>
+      <p class="lineup-note">Si la tanda supera 11 lanzamientos, el orden vuelve a comenzar desde el primer jugador.</p>
+    </div>
+  </div>
+
+  <div id="cuptrack" class="hidden">
+    <div class="cuptrack-title">🏆 CAMINO A LA COPA</div>
+    <div id="cupsteps"></div>
+  </div>
+
+  <div id="credit">by Teras · V6.5</div>
+
+  <div id="helppanel" class="hidden">
+    <h2>Cómo jugar</h2>
+    <ul>
+      <li><b>Patear:</b> apunta a cualquier punto del arco. Durante la carga, arrastra a izquierda/derecha para aplicar efecto y suelta para disparar. La potencia media da más precisión; al centro y suave puedes intentar una Panenka.</li>
+      <li><b>Efecto y postes:</b> una curva fuerte puede complicar al arquero. Los tiros muy ajustados pueden pegar en palo o travesaño y ahora rebotan físicamente.</li>
+      <li><b>Atajar:</b> cuando patea el rival, desliza (swipe) hacia donde quieres lanzarte; un gesto más rápido aumenta el alcance. El clic sigue disponible.</li>
+      <li><b>Orden de pateadores:</b> antes de comenzar la tanda define una sola vez el orden de los 11 jugadores, incluido el arquero. En muerte súbita el orden vuelve a comenzar después del 11.º.</li>
+      <li><b>Reglas:</b> 5 penales por equipo. Si siguen empatados, hay muerte súbita.</li>
+      <li><b>Modos:</b> Partido rápido, Copa de 3 rondas y 2 Jugadores.</li>
+    </ul>
+    <button id="helpclose">Entendido</button>
+  </div>
+
+<script src="teams_custom.js?v=912"></script>
+<script src="teams.js?v=912"></script>
+<script src="audio_config.js?v=912"></script>
+<script src="game.js?v=912"></script>
+<script>
+  if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+    const SW_VERSION = '912';
+    window.addEventListener('load', async () => {
+      try {
+        const reg = await navigator.serviceWorker.register(`sw.js?v=${SW_VERSION}`, { scope: './', updateViaCache: 'none' });
+        const activateWaiting = (registration) => {
+          if (registration && registration.waiting) registration.waiting.postMessage({ type: 'SKIP_WAITING' });
+        };
+        if (reg.waiting) activateWaiting(reg);
+        reg.addEventListener('updatefound', () => {
+          const worker = reg.installing;
+          if (!worker) return;
+          worker.addEventListener('statechange', () => {
+            if (worker.state === 'installed' && navigator.serviceWorker.controller) activateWaiting(reg);
+          });
+        });
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+          if (window.__penalesReloaded) return;
+          window.__penalesReloaded = true;
+          window.location.reload();
+        });
+        reg.update().catch(() => {});
+      } catch (e) {}
+    });
+  }
+</script>
+</body>
+</html>

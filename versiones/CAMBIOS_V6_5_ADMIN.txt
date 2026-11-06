@@ -1,0 +1,24 @@
+V6.5 – Panel administrativo privado
+
+- Se agrega admin.php con autenticación por sesión PHP.
+- El panel NO está enlazado desde el juego público.
+- Permite editar nombre de cada equipo, nombre de los 11 jugadores y dorsal.
+- Incluye local, rival principal y los 3 rivales del modo Copa.
+- Los atributos de juego se conservan.
+- Los cambios se guardan en admin_teams.json y generan teams_custom.js.
+- El juego carga teams_custom.js automáticamente antes de game.js.
+- En Copa, cada rival puede usar ahora su propia plantilla configurada.
+- Cache PWA actualizado a v14.
+
+CLAVE INICIAL
+CuricoAdmin2026!
+
+IMPORTANTE
+Cambiar la contraseña antes de publicar. Para ello genera un nuevo hash PHP con:
+php -r "echo password_hash('TU_CLAVE', PASSWORD_DEFAULT), PHP_EOL;"
+y reemplaza password_hash en admin_config.php.
+
+PERMISOS
+El usuario del servidor web debe poder escribir en la carpeta del juego o, al menos, en:
+- admin_teams.json
+- teams_custom.js

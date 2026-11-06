@@ -1,0 +1,9 @@
+V7.1 – Audio y vibración
+
+- Sonidos diferenciados para remate, red, palo/travesaño y guantes del arquero.
+- Reacción sonora del público: rugido, lamento y silencio/tensión.
+- Silbato del árbitro con respuesta háptica leve.
+- Cánticos periódicos del estadio durante la tanda.
+- Vibración móvil para disparo, gol, atajada, palo y penal decisivo.
+- Mejora de desbloqueo del audio en navegadores móviles (resume del AudioContext al interactuar).
+- Cache PWA actualizado a v22.

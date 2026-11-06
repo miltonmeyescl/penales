@@ -1,0 +1,6 @@
+V7.3.4 – Equipación del arquero al patear
+
+- Se detecta si el jugador que patea es el arquero.
+- Si el pateador es arquero, ahora usa la equipación de arquero del equipo correspondiente.
+- Corrección visible durante el penal y la repetición.
+- Cache PWA actualizado a v28.

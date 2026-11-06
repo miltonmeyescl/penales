@@ -1,0 +1,7 @@
+V8.4 – Móvil/PWA + portada de campeón
+
+- Se optimizó la vista en celular y PWA horizontal para aprovechar mejor la pantalla y agrandar visualmente el campo.
+- Se compactó la interfaz en landscape: menos alto de cabeceras y barra inferior.
+- Se agregó una portada final de campeón estilo diario deportivo para la final de Copa.
+- La edición especial muestra titular, foto del cierre, métricas y figura de la tanda.
+- Service Worker actualizado a cache v35.
